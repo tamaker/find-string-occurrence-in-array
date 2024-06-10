@@ -3,4 +3,4 @@ var arrCheckStreetNames = ['beechfern', 'giant feather loop', 'cordgrass', 'brus
 var testString = "beechfway"
 var checkForFoundStreetName = arrCheckStreetNames.some( substring => testString.toLowerCase().includes(substring) );
 
-console.log(checkForFoundStreetName)
+console.log(checkForFoundStreetName) 
